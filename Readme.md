@@ -1,16 +1,27 @@
-# **Assignment Title**  
+# **Sharing Fairly**  
 
 ## **Assignment Description**  
-
+Create a function called shareFair() that returns true/false if a given variable x can be fairly divided by a given variable y with no remainder.
 
 ## **Examples**  
->
+>shareFair(8, 2)  
+true
+
+>shareFair(15, 5)  
+true
+
+>shareFair(7, 2)  
+false
 
 ## **Limitations**  
+1 if  
+1 else  
 
 ## **Hints**  
+Use the % operator to return the remainder of two numbers.
 
 ## **Concepts**  
+Unit 1, if/else, mod
 
 ---
 

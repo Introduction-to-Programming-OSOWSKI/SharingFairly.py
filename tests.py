@@ -5,12 +5,14 @@
 import main;
 import datetime;
 
-year = 2020
-month = 12
-day = 1
+year = 2021
+month = 1
+day = 5
 
 def test_code():
-    assert 0 > 1, "error"
+    assert main.shareFair(10, 2) == True, " shareFair(10, 2) == True failed"
+    assert main.shareFair(100, 1) == True, " shareFair(100, 1) == True failed"
+    assert main.shareFair(10, 3) == False, " shareFair(10, 3) == False failed"
 
 def test_late():
     assert datetime.datetime.now() < datetime.datetime(year, month, day + 1, 4, 0), "Submitted Late"
